@@ -28,5 +28,6 @@ end
 
 def turn(board)
   puts "Please enter 1-9:" # ask for input
-  input = gets. #get input
+  input = gets.chomp #get input
+   # convert input to index
 end
