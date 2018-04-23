@@ -21,6 +21,7 @@ def position_taken?(board, index)
   return FALSE
 end
 
+#MOVE
 def input_to_index(user_input)
   user_input.to_i - 1
 end
