@@ -34,6 +34,6 @@ def turn(board)
     move(board, index)              # make the move for input
     display_board(board)            # display a correct board after a valid turn
   else
-    turn(board)
+    turn(board)                     # ask for input again until get a valid input
   end
 end
