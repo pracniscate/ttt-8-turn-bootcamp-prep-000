@@ -34,4 +34,5 @@ def turn(board)
     move(board, index)              # make the move for input
   else
     turn(board)
+  end
 end
